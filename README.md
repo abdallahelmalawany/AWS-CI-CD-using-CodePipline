@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/8766fa63-94a7-4a78-9c2a-442f53158a0f" /><img width="1920" height="1080" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/d7bfc549-2b51-48d2-ab6f-110f64c71092" /># AWS CI/CD Pipeline for a .NET Core Service
+# AWS CI/CD Pipeline for a .NET Core Service
 
 This project automates the deployment of a .NET Core application to an Auto Scaling Group behind a Network Load Balancer on AWS, using a full CI/CD pipeline with **GitHub** as the source, integrated with AWS CodeBuild, CodeDeploy, and CodePipeline.
 
