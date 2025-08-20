@@ -312,7 +312,6 @@ To avoid ongoing costs, remember to delete all AWS resources created by this pro
 
 Warning: The scripts provided primarily handle creation. You may need to write corresponding deletion scripts or delete these resources manually through the AWS Management Console.
 <img width="1920" height="1080" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/4f3a7a31-36db-4258-8b26-89fc09f93b3d" />
-<img width="1920" height="1080" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/0ee72f5d-1ce1-41a9-8fdb-c585c7b948f0" />
 <img width="1920" height="1080" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/d8364295-6cea-42ac-b0fa-5830db048758" />
 <img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/815d66c5-53b6-47e4-8cde-20893a72a219" />
 <img width="1920" height="1080" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/2bb7aae4-c24e-400d-a972-d42fc709dc36" />
