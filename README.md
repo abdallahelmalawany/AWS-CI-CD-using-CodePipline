@@ -260,7 +260,7 @@ This script will sequentially create:
     Review and create the pipeline. The first execution will start automatically.
 
 📁 Repository Structure
-text
+
 
 ├── deploy.sh                 # Main deployment script
 ├── conf-qc.sh               # Configuration for QC environment
