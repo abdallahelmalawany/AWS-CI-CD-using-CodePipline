@@ -25,32 +25,7 @@ The goal of this project is to demonstrate Infrastructure as Code (IaC) and CI/C
 ## 📐 Architecture Diagram
 
 The following diagram illustrates the deployed infrastructure and CI/CD workflow:
-
-```mermaid
-flowchart LR
-    Developer[Developer<br>git push] --> |1| GitHub[GitHub Repository]
-
-    subgraph AWS_Pipeline [AWS CodePipeline]
-        Source[Source] --> Build[Build] --> Deploy[Deploy]
-    end
-
-    GitHub --> |2 Triggers| Source
-
-    Build --> |3| CodeBuild[CodeBuild<br>Build & Package Artifact]
-    Deploy --> |4| CodeDeploy[CodeDeploy<br>Deploy to ASG]
-
-    CodeDeploy --> |5| ASG_Group
-
-    subgraph ASG_Group [Auto Scaling Group]
-        Instance1[EC2 Instance<br>t3.micro]
-        Instance2[EC2 Instance<br>t3.micro]
-    end
-
-    User[End User] --> |6 Traffic| NLB[Network Load Balancer<br>NLB]
-    NLB --> |7| ASG_Group
-
-    Health[Health Checks] --> |8| ASG_Group
-```
+![draw](https://github.com/user-attachments/assets/24c828bd-d61f-4808-b584-b24eb1289f47)
 
 🏗️ Infrastructure Components
 
