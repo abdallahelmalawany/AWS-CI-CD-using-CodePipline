@@ -172,38 +172,36 @@ Before deploying, ensure you have the following:
 
 🛠️ Setup & Deployment Instructions
 1. Clone and Prepare the Repository
-bash
 
-git clone <your-github-repo-url>
-cd <repo-name>
-# Copy all the project files into this directory
-git add .
-git commit -m "Initial commit with all project files"
-git push origin main
+       git clone <your-github-repo-url>
+       cd <repo-name>
+       # Copy all the project files into this directory
+       git add .
+       git commit -m "Initial commit with all project files"
+       git push origin main
 
 2. Create the IAM Role for CodeDeploy
 
-    Go to the IAM console in AWS.
+       Go to the IAM console in AWS.
 
-    Create a new role for CodeDeploy.
+       Create a new role for CodeDeploy.
 
-    Attach the managed policies AmazonS3ReadOnlyAccess and AWSCodeDeployRole.
+       Attach the managed policies AmazonS3ReadOnlyAccess and AWSCodeDeployRole.
 
-    Name the role codedeploy_service_role.
+       Name the role codedeploy_service_role.
 
 3. Deploy the Infrastructure
 
 The deploy.sh script is the main entry point. It sources environment-specific configuration and runs the other scripts.
-bash
 
-# Make the scripts executable
-chmod +x *.sh
+    # Make the scripts executable
+    chmod +x *.sh
 
-# Deploy to the QC (Quality Control) environment
-./deploy.sh qc
+    # Deploy to the QC (Quality Control) environment
+    ./deploy.sh qc
 
-# Later, deploy to Production
-# ./deploy.sh prod
+    # Later, deploy to Production
+    # ./deploy.sh prod
 
 This script will sequentially create:
 
@@ -215,9 +213,9 @@ This script will sequentially create:
 
 4. Create the CI/CD Pipeline on AWS
 
-    Open the AWS CodePipeline console.
+       Open the AWS CodePipeline console.
 
-    Click Create pipeline.
+       Click Create pipeline.
 
     Step 1: Pipeline settings
 
