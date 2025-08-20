@@ -261,28 +261,27 @@ This script will sequentially create:
 
 📁 Repository Structure
 
-
-[Uploa├── deploy.sh                 # Main deployment script
-├── conf-qc.sh               # Configuration for QC environment
-├── conf-prod.sh             # Configuration for Production environment
-├── vpc.sh                   # Script to create VPC, subnets, IGW, etc.
-├── security.sh              # Script to create Key Pair, Secret, Security Group
-├── autoscalinggroup.sh      # Script to create LT, NLB, ASG
-├── dns.sh                   # (Optional) Script to create Route53 records
-├── build.sh                 # User Data script for EC2 instances
-├── lt.json                  # Launch Template JSON definition
-│
-├── buildspec.yml            # CodeBuild build instructions
-├── appspec.yml              # CodeDeploy deployment instructions
-│
-├── srv02.csproj             # .NET Core project file
-├── main.cs                  # .NET Core application source code
-│
-└── scripts/                 # CodeDeploy lifecycle hooks
+    ├── deploy.sh                 # Main deployment script
+    ├── conf-qc.sh               # Configuration for QC environment
+    ├── conf-prod.sh             # Configuration for Production environment
+    ├── vpc.sh                   # Script to create VPC, subnets, IGW, etc.
+    ├── security.sh              # Script to create Key Pair, Secret, Security Group
+    ├── autoscalinggroup.sh      # Script to create LT, NLB, ASG
+    ├── dns.sh                   # (Optional) Script to create Route53 records
+    ├── build.sh                 # User Data script for EC2 instances
+    ├── lt.json                  # Launch Template JSON definition
+    │
+    ├── buildspec.yml            # CodeBuild build instructions
+    ├── appspec.yml              # CodeDeploy deployment instructions
+    │
+    ├── srv02.csproj             # .NET Core project file
+    ├── main.cs                  # .NET Core application source code
+    │
+    └── scripts/                 # CodeDeploy lifecycle hooks
     ├── after_install.sh
     ├── before_install.sh
     ├── start.sh
-    └── stop.shding deepseek_text_20250820_4224cb(1).txt…]()
+    └── stop.sh
 
 
 🧹 Cleaning Up
