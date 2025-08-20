@@ -1,4 +1,4 @@
-# AWS CI/CD Pipeline for a .NET Core Service
+<img width="1920" height="1080" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/8766fa63-94a7-4a78-9c2a-442f53158a0f" /><img width="1920" height="1080" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/d7bfc549-2b51-48d2-ab6f-110f64c71092" /># AWS CI/CD Pipeline for a .NET Core Service
 
 This project automates the deployment of a .NET Core application to an Auto Scaling Group behind a Network Load Balancer on AWS, using a full CI/CD pipeline with **GitHub** as the source, integrated with AWS CodeBuild, CodeDeploy, and CodePipeline.
 
@@ -311,3 +311,28 @@ To avoid ongoing costs, remember to delete all AWS resources created by this pro
         EC2 Key Pairs
 
 Warning: The scripts provided primarily handle creation. You may need to write corresponding deletion scripts or delete these resources manually through the AWS Management Console.
+<img width="1920" height="1080" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/4f3a7a31-36db-4258-8b26-89fc09f93b3d" />
+<img width="1920" height="1080" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/0ee72f5d-1ce1-41a9-8fdb-c585c7b948f0" />
+<img width="1920" height="1080" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/d8364295-6cea-42ac-b0fa-5830db048758" />
+<img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/815d66c5-53b6-47e4-8cde-20893a72a219" />
+<img width="1920" height="1080" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/2bb7aae4-c24e-400d-a972-d42fc709dc36" />
+<img width="1920" height="1080" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/8b0ebcbc-709b-4658-8e37-642991c58a41" />
+<img width="1920" height="1080" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/4d3e721e-1676-4134-9a60-7b5af3c6bc19" />
+<img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/1f72e801-31a6-47f1-aec0-1e022c5a0467" />
+<img width="1920" height="1080" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/6ab0da98-78f9-4e7f-b51c-5265c8fea656" />
+<img width="1920" height="1080" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/05e4d531-58ec-4d4e-ad2d-12630c6dddbb" />
+<img width="1920" height="1080" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/60076d65-e3bb-4107-bc84-6cd15d7c8e78" />
+<img width="1920" height="1080" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/132989ae-bea1-4055-b804-657695fc9654" />
+<img width="1920" height="1080" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/1da7d8ae-15d2-4a1a-ba8d-e43f6775d735" />
+<img width="1920" height="1080" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/86301408-b615-4848-87bb-32bb577cab59" />
+<img width="1920" height="1080" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/10548910-ea20-4a51-bf81-97ba1f7e9652" />
+<img width="1920" height="1080" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/15db4b18-2efc-4f03-ba18-10d9e47a0267" />
+<img width="1920" height="1080" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/a4397dc8-3efa-4ca5-ba0a-ceaedf731010" />
+<img width="1920" height="1080" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/7080ce6a-1a08-4f3a-90a2-0a755530bb63" />
+<img width="1920" height="1080" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/6bebc8b4-8d19-4ec1-b193-b34a4c4f4af9" />
+<img width="1920" height="1080" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/a59d8ded-6a04-433f-a18d-802988765fa6" />
+<img width="1920" height="1080" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/f70af1a5-d5aa-475c-9b33-b8be57745e44" />
+<img width="1920" height="1080" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/b3a398ff-1b00-4f77-9a72-4980e31a7d30" />
+<img width="1920" height="1080" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/38d46b7f-c7fb-419d-b512-e4285d9bd0c5" />
+
+
