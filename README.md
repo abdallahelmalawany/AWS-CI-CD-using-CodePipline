@@ -1,4 +1,4 @@
-# AWS CI/CD Pipeline for a .NET Core Service
+[deepseek_text_20250820_4224cb(1).txt](https://github.com/user-attachments/files/21892105/deepseek_text_20250820_4224cb.1.txt)# AWS CI/CD Pipeline for a .NET Core Service
 
 This project automates the deployment of a .NET Core application to an Auto Scaling Group behind a Network Load Balancer on AWS, using a full CI/CD pipeline with **GitHub** as the source, integrated with AWS CodeBuild, CodeDeploy, and CodePipeline.
 
@@ -262,7 +262,7 @@ This script will sequentially create:
 📁 Repository Structure
 
 
-├── deploy.sh                 # Main deployment script
+[Uploa├── deploy.sh                 # Main deployment script
 ├── conf-qc.sh               # Configuration for QC environment
 ├── conf-prod.sh             # Configuration for Production environment
 ├── vpc.sh                   # Script to create VPC, subnets, IGW, etc.
@@ -282,7 +282,8 @@ This script will sequentially create:
     ├── after_install.sh
     ├── before_install.sh
     ├── start.sh
-    └── stop.sh
+    └── stop.shding deepseek_text_20250820_4224cb(1).txt…]()
+
 
 🧹 Cleaning Up
 
