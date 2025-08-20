@@ -50,6 +50,7 @@ flowchart LR
     NLB --> |7| ASG_Group
 
     Health[Health Checks] --> |8| ASG_Group
+```
 
 🏗️ Infrastructure Components
 
