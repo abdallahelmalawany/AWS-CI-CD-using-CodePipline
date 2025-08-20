@@ -1,30 +1,28 @@
-AWS CI/CD Pipeline for a .NET Core Service
+# AWS CI/CD Pipeline for a .NET Core Service
 
-This project automates the deployment of a .NET Core application to an Auto Scaling Group behind a Network Load Balancer on AWS, using a full CI/CD pipeline with GitHub as the source, integrated with AWS CodeBuild, CodeDeploy, and CodePipeline.
-📖 Table of Contents
+This project automates the deployment of a .NET Core application to an Auto Scaling Group behind a Network Load Balancer on AWS, using a full CI/CD pipeline with **GitHub** as the source, integrated with AWS CodeBuild, CodeDeploy, and CodePipeline.
 
-    Project Overview
+## 📖 Table of Contents
 
-    Architecture Diagram
+- [Project Overview](#-project-overview)
+- [Architecture Diagram](#-architecture-diagram)
+- [Infrastructure Components](#-infrastructure-components)
+- [Application](#-application)
+- [CI/CD Pipeline Flow](#-cicd-pipeline-flow)
+- [Prerequisites](#-prerequisites)
+- [Setup & Deployment Instructions](#-setup--deployment-instructions)
+- [Repository Structure](#-repository-structure)
+- [Cleaning Up](#-cleaning-up)
 
-    Infrastructure Components
+---
 
-    Application
+## 🚀 Project Overview
 
-    CI/CD Pipeline Flow
+The goal of this project is to demonstrate Infrastructure as Code (IaC) and CI/CD best practices on AWS. The infrastructure, including networking, security, and compute resources, is provisioned using AWS CLI bash scripts. A simple .NET Core web service is automatically built, tested, and deployed whenever changes are pushed to the main branch of the **GitHub** repository.
 
-    Prerequisites
+---
 
-    Setup & Deployment Instructions
-
-    Repository Structure
-
-    Cleaning Up
-                                                                  
-🚀 Project Overview
-
-The goal of this project is to demonstrate Infrastructure as Code (IaC) and CI/CD best practices on AWS. The infrastructure, including networking, security, and compute resources, is provisioned using AWS CLI bash scripts. A simple .NET Core web service is automatically built, tested, and deployed whenever changes are pushed to the main branch of the GitHub repository.
-📐 Architecture Diagram
+## 📐 Architecture Diagram
 
 The following diagram illustrates the deployed infrastructure and CI/CD workflow:
 
@@ -52,7 +50,7 @@ flowchart LR
     NLB --> |7| ASG_Group
 
     Health[Health Checks] --> |8| ASG_Group
-```
+
 🏗️ Infrastructure Components
 
 The bash scripts in this repo (vpc.sh, security.sh, autoscalinggroup.sh) create the following core AWS resources:
@@ -173,6 +171,7 @@ Before deploying, ensure you have the following:
 
 🛠️ Setup & Deployment Instructions
 1. Clone and Prepare the Repository
+bash
 
 git clone <your-github-repo-url>
 cd <repo-name>
